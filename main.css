@@ -5,18 +5,24 @@
 }
 
 body {
-        font-family: Arial, sans-serif;
+        font-family: sans-serif;
         background: #ff77aa;
         text-align: center;
         overflow: hidden;
+        background-image: url(images/jueves-de-racismo.gif);
     }
     .floating {
         position: absolute;
-        background: yellow;
+        /*background: yellow;*/
         padding: 10px;
-        border: 2px solid black;
+        /*border: 2px solid black;*/
         user-select: none;
         cursor: pointer;
+    }
+
+    .text{
+        color: white;
+        font-family: sans-serif;
     }
 
     #bigButton {
@@ -27,4 +33,59 @@ body {
         font-size: 24px;
         border: none;
         cursor: pointer;
+    }
+
+    #bigButton {
+    animation: cambiarColores 0.1s infinite alternate;
+    }
+
+    @keyframes cambiarColores {
+        0% { background-color: red; }
+        100% { background-color: blue; }
+    }
+
+    #happyButton{
+        margin-top: 40px;
+        padding: 20px 40px;
+        background: red;
+        color: white;
+        font-size: 24px;
+        border: none;
+        cursor: pointer;
+    }
+
+    #happyButton {
+    animation: cambiarColores 0.1s infinite alternate;
+    }
+
+    @keyframes cambiarColores {
+        0% { background-color: red; }
+        100% { background-color: blue; }
+    }
+
+    #catButton{
+        margin-top: 40px;
+        padding: 20px 40px;
+        background: red;
+        color: white;
+        font-size: 24px;
+        border: none;
+        cursor: pointer;
+    }
+
+    #catButton {
+    animation: cambiarColores 0.1s infinite alternate;
+    }
+
+    @keyframes cambiarColores {
+        0% { background-color: red; }
+        100% { background-color: blue; }
+    }
+
+    #cat-dancing{
+        float: right;
+    }
+
+    #cat-dancing2{
+        float: left;
     }
