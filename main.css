@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+        font-family: Arial, sans-serif;
+        background: #ff77aa;
+        text-align: center;
+        overflow: hidden;
+    }
+    .floating {
+        position: absolute;
+        background: yellow;
+        padding: 10px;
+        border: 2px solid black;
+        user-select: none;
+        cursor: pointer;
+    }
+
+    #bigButton {
+        margin-top: 40px;
+        padding: 20px 40px;
+        background: red;
+        color: white;
+        font-size: 24px;
+        border: none;
+        cursor: pointer;
+    }
