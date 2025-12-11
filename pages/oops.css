@@ -27,3 +27,14 @@ body {
         width: 280px;
         height: 240px;
     }
+
+    .video{
+        margin-top: 150px;
+    }
+
+    .thanks{
+        text-align: center;
+        color: rgb(218, 255, 162);
+        font-weight: bold;
+        font-size: 55px;   
+    }

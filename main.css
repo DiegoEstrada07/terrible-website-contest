@@ -33,6 +33,11 @@ body {
     .text{
         color: white;
         font-family: sans-serif;
+        animation: cambiartexto 0.2s infinite alternate;
+    }
+
+    #clear{
+        animation: cambiartexto2 0.3s infinite alternate;
     }
 
     #bigButton {
@@ -46,13 +51,30 @@ body {
     }
 
     #bigButton {
-    animation: cambiarColores 0.1s infinite alternate;
+    animation: cambiarColores 0.16s infinite alternate;
     }
 
     @keyframes cambiarColores {
-        0% { background-color: red; }
-        50% { background-color: blue; }
-        100% { background-color: purple; }
+        100% { background-color: orange; }
+        50% { background-color: yellow; }
+        100% { background-color: pink; }
+        100% { background-color: rgb(203, 247, 137); }  
+        
+    }
+    
+    @keyframes cambiartexto {
+        100% { color: yellow; }
+        100% { color: pink; }
+        100% { color: red; }
+        100% { color: rgb(96, 234, 241); }  
+        
+    }
+
+    @keyframes cambiartexto2 {
+        50% { color: black; }
+        50% { color: white; } 
+        50% { color: black; }
+        50% { color: white; } 
     }
 
     #happyButton{
@@ -66,7 +88,7 @@ body {
     }
 
     #happyButton {
-    animation: cambiarColores 0.1s infinite alternate;
+    animation: cambiarColores 0.15s infinite alternate;
     }
 
     #catButton{
@@ -80,7 +102,7 @@ body {
     }
 
     #catButton {
-    animation: cambiarColores 0.1s infinite alternate;
+    animation: cambiarColores 0.14s infinite alternate;
     }
 
     #jiggle{
@@ -94,7 +116,7 @@ body {
     }
 
     #jiggle {
-    animation: cambiarColores 0.1s infinite alternate;
+    animation: cambiarColores 0.13s infinite alternate;
     }
 
     #button-div{
