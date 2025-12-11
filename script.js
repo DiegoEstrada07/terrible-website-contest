@@ -1,6 +1,3 @@
-
-
-// GRUPO 1 DE IMÁGENES
 const imagenes1 = [
     "images/kirby.gif",
     "images/kirby.gif",
@@ -8,12 +5,21 @@ const imagenes1 = [
     "images/kirby.gif"
 ];
 
-// GRUPO 2 DE IMÁGENES (OTRA CARPETA O OTRO NOMBRE)
 const imagenes2 = [
     "images/happy.gif",
     "images/happy.gif",
     "images/happy.gif"
 ];
+
+const images3 = [
+    "images/cat.gif",
+    "images/cat.gif",
+    "images/cat.gif"
+]
+
+const images4 = [
+    "images/jiggle.gif"
+]
 
 // ---- FUNCIÓN PARA ACTUALIZAR EL CONTADOR ----
 function actualizarContador() {
@@ -57,9 +63,17 @@ function creaImagen(listaImagenes) {
 
 
 document.getElementById("bigButton").addEventListener("click", () => {
-    for (let i = 0; i < 1; i++) creaImagen(imagenes1);
+    for (let i = 0; i < 1   ; i++) creaImagen(imagenes1);
 });
 
 document.getElementById("happyButton").addEventListener("click", () => {
     for (let i = 0; i < 1; i++) creaImagen(imagenes2);
+});
+
+document.getElementById("catButton").addEventListener("click", () => {
+    for (let i = 0; i < 1; i++) creaImagen(images3);
+});
+
+document.getElementById("jiggle").addEventListener("click", () => {
+    for (let i = 0; i < 1; i++) creaImagen(images4);
 });

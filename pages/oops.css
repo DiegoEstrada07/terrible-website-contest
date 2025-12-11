@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+        font-family: sans-serif;
+        background: #ff77aa;
+        text-align: center;
+        overflow: hidden;
+        background-image: url(../images/rainbow.gif);
+    }
+
+    .oops-text{
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        font-size: 55px;
+    }
+
+    div{
+        margin-top: 100px;
+    }
+
+    div a img{
+        width: 280px;
+        height: 240px;
+    }

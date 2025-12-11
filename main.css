@@ -11,6 +11,7 @@ body {
         overflow: hidden;
         background-image: url(images/jueves-de-racismo.gif);
     }
+    
     .floating {
         position: absolute;
         /*background: yellow;*/
@@ -19,6 +20,15 @@ body {
         user-select: none;
         cursor: pointer;
     }
+
+    #cat-dancing{
+        float: right;
+    }
+
+    #cat-dancing2{
+        float: left;
+    }
+
 
     .text{
         color: white;
@@ -41,7 +51,8 @@ body {
 
     @keyframes cambiarColores {
         0% { background-color: red; }
-        100% { background-color: blue; }
+        50% { background-color: blue; }
+        100% { background-color: purple; }
     }
 
     #happyButton{
@@ -58,11 +69,6 @@ body {
     animation: cambiarColores 0.1s infinite alternate;
     }
 
-    @keyframes cambiarColores {
-        0% { background-color: red; }
-        100% { background-color: blue; }
-    }
-
     #catButton{
         margin-top: 40px;
         padding: 20px 40px;
@@ -77,15 +83,29 @@ body {
     animation: cambiarColores 0.1s infinite alternate;
     }
 
-    @keyframes cambiarColores {
-        0% { background-color: red; }
-        100% { background-color: blue; }
+    #jiggle{
+        margin-top: 40px;
+        padding: 20px 40px;
+        background: red;
+        color: white;
+        font-size: 24px;
+        border: none;
+        cursor: pointer;
     }
 
-    #cat-dancing{
-        float: right;
+    #jiggle {
+    animation: cambiarColores 0.1s infinite alternate;
     }
 
-    #cat-dancing2{
-        float: left;
+    #button-div{
+        color: white;
+        font-size: 28px;
+        margin-top: 35px;
+        background-image: url();
     }
+    #redButton-img{
+        height: 150px;
+        width: 150px;
+    }
+
+    
